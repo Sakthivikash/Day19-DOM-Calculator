@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+    outline: none;
+}
+body{
+    background-color: rgb(200, 230, 240);
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p1{
+    background-color: rgb(240, 229, 240);
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: span 4;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: inset -5px -5px 13px #11cfdd, inset 5px 5px 13px rgb(52, 52, 240);
+}
+.calculator{
+    background-color: rgb(184, 195, 199);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px, inset 5px 5px 12px #f5efef;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+}
+input{
+    grid-column: span 4;
+    height: 80px;
+    width: 250px;
+    background-color: whitesmoke;
+    box-shadow: inset -5px -5px 13px #d8d3d3, inset 5px 5px 13px rgb(185, 185, 192);
+    border: rgb(253, 254, 255) solid 3px;
+    border-radius: 20px;
+    font-size: 35px;
+    padding: 5px;
+    text-align: end;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: rgb(95, 253, 253);
+    color: rgb(1, 0, 15);
+    height: 50px;
+    width: 50px;
+    box-shadow: inset -3px -4px 5px #05746a,inset 2px 2px 2px rgb(211, 211, 212);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 20px;
+ 
+}
+#equal{
+    background-color: rgb(95, 236, 95);
+    color: black;
+    box-shadow: inset -3px -4px 5px #046d23,inset 2px 2px 2px rgb(211, 211, 212);
+}
+#equal:active{
+    background-color: rgb(14, 170, 14);
+}
+.num:hover{
+    background-color: rgb(12, 134, 134);
+    color: white;
+}
+#clear{
+    background-color: red;
+    color: white;
+    box-shadow: inset -3px -4px 5px #690311,inset 2px 2px 2px rgb(211, 211, 212);
+}
+#clear:active{
+    background-color: rgb(180, 6, 6) ;
+}
+.sym{
+    background-color: yellow;
+    box-shadow: inset -3px -4px 5px #a7a405,inset 2px 2px 2px rgb(211, 211, 212);
+    font-weight: 500px;
+}
+.sym:active{
+    background-color: rgb(201, 201, 7);
+    color: rgb(24, 22, 22);
+}
+.oth{
+    background-color:rgb(22, 19, 230);
+    color: white;
+    box-shadow: inset -3px -4px 5px #0e043a,inset 2px 2px 2px rgb(211, 211, 212);
+}
+.oth:hover{
+    background-color: rgb(11, 9, 97);
+}
+.del{
+    background-color: rgb(247, 26, 199);
+    box-shadow: inset -3px -4px 5px #56045e,inset 2px 2px 2px rgb(211, 211, 212);
+    font-size: 15px;
+    color: white;
+}
+.del:hover{
+    background-color: rgb(161, 10, 129);
+}
